@@ -1,0 +1,973 @@
+Country list scrapping started
+
+Country list scrapping ended
+
+ASNs list scrapping for United States started
+
+ASNs list scrapping for United States ended
+
+ASNs list scrapping for Brazil started
+
+ASNs list scrapping for Brazil ended
+
+ASNs list scrapping for China started
+
+ASNs list scrapping for China ended
+
+ASNs list scrapping for Russian Federation started
+
+ASNs list scrapping for Russian Federation ended
+
+ASNs list scrapping for India started
+
+ASNs list scrapping for India ended
+
+ASNs list scrapping for Indonesia started
+
+ASNs list scrapping for Indonesia ended
+
+ASNs list scrapping for United Kingdom started
+
+ASNs list scrapping for United Kingdom ended
+
+ASNs list scrapping for Germany started
+
+ASNs list scrapping for Germany ended
+
+ASNs list scrapping for Australia started
+
+ASNs list scrapping for Australia ended
+
+ASNs list scrapping for Poland started
+
+ASNs list scrapping for Poland ended
+
+ASNs list scrapping for Canada started
+
+ASNs list scrapping for Canada ended
+
+ASNs list scrapping for Ukraine started
+
+ASNs list scrapping for Ukraine ended
+
+ASNs list scrapping for France started
+
+ASNs list scrapping for France ended
+
+ASNs list scrapping for Bangladesh started
+
+ASNs list scrapping for Bangladesh ended
+
+ASNs list scrapping for Netherlands started
+
+ASNs list scrapping for Netherlands ended
+
+ASNs list scrapping for Italy started
+
+ASNs list scrapping for Italy ended
+
+ASNs list scrapping for Hong Kong started
+
+ASNs list scrapping for Hong Kong ended
+
+ASNs list scrapping for Romania started
+
+ASNs list scrapping for Romania ended
+
+ASNs list scrapping for Argentina started
+
+ASNs list scrapping for Argentina ended
+
+ASNs list scrapping for Japan started
+
+ASNs list scrapping for Japan ended
+
+ASNs list scrapping for Spain started
+
+ASNs list scrapping for Spain ended
+
+ASNs list scrapping for Turkey started
+
+ASNs list scrapping for Turkey ended
+
+ASNs list scrapping for Korea, Republic of started
+
+ASNs list scrapping for Korea, Republic of ended
+
+ASNs list scrapping for Switzerland started
+
+ASNs list scrapping for Switzerland ended
+
+ASNs list scrapping for Viet Nam started
+
+ASNs list scrapping for Viet Nam ended
+
+ASNs list scrapping for Sweden started
+
+ASNs list scrapping for Sweden ended
+
+ASNs list scrapping for Iran, Islamic Republic of started
+
+ASNs list scrapping for Iran, Islamic Republic of ended
+
+ASNs list scrapping for Bulgaria started
+
+ASNs list scrapping for Bulgaria ended
+
+ASNs list scrapping for South Africa started
+
+ASNs list scrapping for South Africa ended
+
+ASNs list scrapping for Austria started
+
+ASNs list scrapping for Austria ended
+
+ASNs list scrapping for Mexico started
+
+ASNs list scrapping for Mexico ended
+
+ASNs list scrapping for Czech Republic started
+
+ASNs list scrapping for Czech Republic ended
+
+ASNs list scrapping for Singapore started
+
+ASNs list scrapping for Singapore ended
+
+ASNs list scrapping for New Zealand started
+
+ASNs list scrapping for New Zealand ended
+
+ASNs list scrapping for Philippines started
+
+ASNs list scrapping for Philippines ended
+
+ASNs list scrapping for Thailand started
+
+ASNs list scrapping for Thailand ended
+
+ASNs list scrapping for Colombia started
+
+ASNs list scrapping for Colombia ended
+
+ASNs list scrapping for Denmark started
+
+ASNs list scrapping for Denmark ended
+
+ASNs list scrapping for Taiwan started
+
+ASNs list scrapping for Taiwan ended
+
+ASNs list scrapping for Pakistan started
+
+ASNs list scrapping for Pakistan ended
+
+ASNs list scrapping for Norway started
+
+ASNs list scrapping for Norway ended
+
+ASNs list scrapping for Chile started
+
+ASNs list scrapping for Chile ended
+
+ASNs list scrapping for Israel started
+
+ASNs list scrapping for Israel ended
+
+ASNs list scrapping for Belgium started
+
+ASNs list scrapping for Belgium ended
+
+ASNs list scrapping for Malaysia started
+
+ASNs list scrapping for Malaysia ended
+
+ASNs list scrapping for Finland started
+
+ASNs list scrapping for Finland ended
+
+ASNs list scrapping for Latvia started
+
+ASNs list scrapping for Latvia ended
+
+ASNs list scrapping for European Union started
+
+ASNs list scrapping for European Union ended
+
+ASNs list scrapping for Hungary started
+
+ASNs list scrapping for Hungary ended
+
+ASNs list scrapping for Ireland started
+
+ASNs list scrapping for Ireland ended
+
+ASNs list scrapping for Slovenia started
+
+ASNs list scrapping for Slovenia ended
+
+ASNs list scrapping for Greece started
+
+ASNs list scrapping for Greece ended
+
+ASNs list scrapping for Nigeria started
+
+ASNs list scrapping for Nigeria ended
+
+ASNs list scrapping for Ecuador started
+
+ASNs list scrapping for Ecuador ended
+
+ASNs list scrapping for Venezuela, Bolivarian Republic of started
+
+ASNs list scrapping for Venezuela, Bolivarian Republic of ended
+
+ASNs list scrapping for Kazakhstan started
+
+ASNs list scrapping for Kazakhstan ended
+
+ASNs list scrapping for Kenya started
+
+ASNs list scrapping for Kenya ended
+
+ASNs list scrapping for Peru started
+
+ASNs list scrapping for Peru ended
+
+ASNs list scrapping for Slovakia started
+
+ASNs list scrapping for Slovakia ended
+
+ASNs list scrapping for Lithuania started
+
+ASNs list scrapping for Lithuania ended
+
+ASNs list scrapping for Estonia started
+
+ASNs list scrapping for Estonia ended
+
+ASNs list scrapping for Moldova, Republic of started
+
+ASNs list scrapping for Moldova, Republic of ended
+
+ASNs list scrapping for Dominican Republic started
+
+ASNs list scrapping for Dominican Republic ended
+
+ASNs list scrapping for Serbia started
+
+ASNs list scrapping for Serbia ended
+
+ASNs list scrapping for Iraq started
+
+ASNs list scrapping for Iraq ended
+
+ASNs list scrapping for Nepal started
+
+ASNs list scrapping for Nepal ended
+
+ASNs list scrapping for Saudi Arabia started
+
+ASNs list scrapping for Saudi Arabia ended
+
+ASNs list scrapping for United Arab Emirates started
+
+ASNs list scrapping for United Arab Emirates ended
+
+ASNs list scrapping for Croatia started
+
+ASNs list scrapping for Croatia ended
+
+ASNs list scrapping for Lebanon started
+
+ASNs list scrapping for Lebanon ended
+
+ASNs list scrapping for Cyprus started
+
+ASNs list scrapping for Cyprus ended
+
+ASNs list scrapping for Portugal started
+
+ASNs list scrapping for Portugal ended
+
+ASNs list scrapping for Georgia started
+
+ASNs list scrapping for Georgia ended
+
+ASNs list scrapping for Myanmar started
+
+ASNs list scrapping for Myanmar ended
+
+ASNs list scrapping for Cambodia started
+
+ASNs list scrapping for Cambodia ended
+
+ASNs list scrapping for Panama started
+
+ASNs list scrapping for Panama ended
+
+ASNs list scrapping for Armenia started
+
+ASNs list scrapping for Armenia ended
+
+ASNs list scrapping for Luxembourg started
+
+ASNs list scrapping for Luxembourg ended
+
+ASNs list scrapping for Belarus started
+
+ASNs list scrapping for Belarus ended
+
+ASNs list scrapping for Uzbekistan started
+
+ASNs list scrapping for Uzbekistan ended
+
+ASNs list scrapping for Albania started
+
+ASNs list scrapping for Albania ended
+
+ASNs list scrapping for Costa Rica started
+
+ASNs list scrapping for Costa Rica ended
+
+ASNs list scrapping for Puerto Rico started
+
+ASNs list scrapping for Puerto Rico ended
+
+ASNs list scrapping for Ghana started
+
+ASNs list scrapping for Ghana ended
+
+ASNs list scrapping for Tanzania, United Republic of started
+
+ASNs list scrapping for Tanzania, United Republic of ended
+
+ASNs list scrapping for Honduras started
+
+ASNs list scrapping for Honduras ended
+
+ASNs list scrapping for Paraguay started
+
+ASNs list scrapping for Paraguay ended
+
+ASNs list scrapping for Azerbaijan started
+
+ASNs list scrapping for Azerbaijan ended
+
+ASNs list scrapping for Seychelles started
+
+ASNs list scrapping for Seychelles ended
+
+ASNs list scrapping for Guatemala started
+
+ASNs list scrapping for Guatemala ended
+
+ASNs list scrapping for Egypt started
+
+ASNs list scrapping for Egypt ended
+
+ASNs list scrapping for Iceland started
+
+ASNs list scrapping for Iceland ended
+
+ASNs list scrapping for Kuwait started
+
+ASNs list scrapping for Kuwait ended
+
+ASNs list scrapping for Afghanistan started
+
+ASNs list scrapping for Afghanistan ended
+
+ASNs list scrapping for Mongolia started
+
+ASNs list scrapping for Mongolia ended
+
+ASNs list scrapping for Angola started
+
+ASNs list scrapping for Angola ended
+
+ASNs list scrapping for Kyrgyzstan started
+
+ASNs list scrapping for Kyrgyzstan ended
+
+ASNs list scrapping for Palestine started
+
+ASNs list scrapping for Palestine ended
+
+ASNs list scrapping for Macedonia, The Former Yugoslav Republic of started
+
+ASNs list scrapping for Macedonia, The Former Yugoslav Republic of ended
+
+ASNs list scrapping for Uganda started
+
+ASNs list scrapping for Uganda ended
+
+ASNs list scrapping for Bolivia, Plurinational State of started
+
+ASNs list scrapping for Bolivia, Plurinational State of ended
+
+ASNs list scrapping for Bosnia and Herzegovina started
+
+ASNs list scrapping for Bosnia and Herzegovina ended
+
+ASNs list scrapping for Jordan started
+
+ASNs list scrapping for Jordan ended
+
+ASNs list scrapping for Congo, The Democratic Republic of the started
+
+ASNs list scrapping for Congo, The Democratic Republic of the ended
+
+ASNs list scrapping for El Salvador started
+
+ASNs list scrapping for El Salvador ended
+
+ASNs list scrapping for Malta started
+
+ASNs list scrapping for Malta ended
+
+ASNs list scrapping for Mauritius started
+
+ASNs list scrapping for Mauritius ended
+
+ASNs list scrapping for Uruguay started
+
+ASNs list scrapping for Uruguay ended
+
+ASNs list scrapping for Virgin Islands, British started
+
+ASNs list scrapping for Virgin Islands, British ended
+
+ASNs list scrapping for Lao People's Democratic Republic started
+
+ASNs list scrapping for Lao People's Democratic Republic ended
+
+ASNs list scrapping for Papua New Guinea started
+
+ASNs list scrapping for Papua New Guinea ended
+
+ASNs list scrapping for Tajikistan started
+
+ASNs list scrapping for Tajikistan ended
+
+ASNs list scrapping for Bhutan started
+
+ASNs list scrapping for Bhutan ended
+
+ASNs list scrapping for Curaçao started
+
+ASNs list scrapping for Curaçao ended
+
+ASNs list scrapping for Botswana started
+
+ASNs list scrapping for Botswana ended
+
+ASNs list scrapping for Zimbabwe started
+
+ASNs list scrapping for Zimbabwe ended
+
+ASNs list scrapping for Morocco started
+
+ASNs list scrapping for Morocco ended
+
+ASNs list scrapping for Malawi started
+
+ASNs list scrapping for Malawi ended
+
+ASNs list scrapping for Belize started
+
+ASNs list scrapping for Belize ended
+
+ASNs list scrapping for Nicaragua started
+
+ASNs list scrapping for Nicaragua ended
+
+ASNs list scrapping for Mozambique started
+
+ASNs list scrapping for Mozambique ended
+
+ASNs list scrapping for Libya started
+
+ASNs list scrapping for Libya ended
+
+ASNs list scrapping for Sri Lanka started
+
+ASNs list scrapping for Sri Lanka ended
+
+ASNs list scrapping for Cameroon started
+
+ASNs list scrapping for Cameroon ended
+
+ASNs list scrapping for Burkina Faso started
+
+ASNs list scrapping for Burkina Faso ended
+
+ASNs list scrapping for Rwanda started
+
+ASNs list scrapping for Rwanda ended
+
+ASNs list scrapping for Montenegro started
+
+ASNs list scrapping for Montenegro ended
+
+ASNs list scrapping for Liechtenstein started
+
+ASNs list scrapping for Liechtenstein ended
+
+ASNs list scrapping for Côte d'Ivoire started
+
+ASNs list scrapping for Côte d'Ivoire ended
+
+ASNs list scrapping for Tunisia started
+
+ASNs list scrapping for Tunisia ended
+
+ASNs list scrapping for Isle of Man started
+
+ASNs list scrapping for Isle of Man ended
+
+ASNs list scrapping for Qatar started
+
+ASNs list scrapping for Qatar ended
+
+ASNs list scrapping for Gibraltar started
+
+ASNs list scrapping for Gibraltar ended
+
+ASNs list scrapping for Bahrain started
+
+ASNs list scrapping for Bahrain ended
+
+ASNs list scrapping for Oman started
+
+ASNs list scrapping for Oman ended
+
+ASNs list scrapping for Zambia started
+
+ASNs list scrapping for Zambia ended
+
+ASNs list scrapping for Somalia started
+
+ASNs list scrapping for Somalia ended
+
+ASNs list scrapping for Bermuda started
+
+ASNs list scrapping for Bermuda ended
+
+ASNs list scrapping for South Sudan started
+
+ASNs list scrapping for South Sudan ended
+
+ASNs list scrapping for Senegal started
+
+ASNs list scrapping for Senegal ended
+
+ASNs list scrapping for Fiji started
+
+ASNs list scrapping for Fiji ended
+
+ASNs list scrapping for Sierra Leone started
+
+ASNs list scrapping for Sierra Leone ended
+
+ASNs list scrapping for Namibia started
+
+ASNs list scrapping for Namibia ended
+
+ASNs list scrapping for Timor-Leste started
+
+ASNs list scrapping for Timor-Leste ended
+
+ASNs list scrapping for Guinea started
+
+ASNs list scrapping for Guinea ended
+
+ASNs list scrapping for Benin started
+
+ASNs list scrapping for Benin ended
+
+ASNs list scrapping for Antigua and Barbuda started
+
+ASNs list scrapping for Antigua and Barbuda ended
+
+ASNs list scrapping for New Caledonia started
+
+ASNs list scrapping for New Caledonia ended
+
+ASNs list scrapping for Maldives started
+
+ASNs list scrapping for Maldives ended
+
+ASNs list scrapping for Cayman Islands started
+
+ASNs list scrapping for Cayman Islands ended
+
+ASNs list scrapping for Chad started
+
+ASNs list scrapping for Chad ended
+
+ASNs list scrapping for Liberia started
+
+ASNs list scrapping for Liberia ended
+
+ASNs list scrapping for Trinidad and Tobago started
+
+ASNs list scrapping for Trinidad and Tobago ended
+
+ASNs list scrapping for Macao started
+
+ASNs list scrapping for Macao ended
+
+ASNs list scrapping for Jamaica started
+
+ASNs list scrapping for Jamaica ended
+
+ASNs list scrapping for Congo started
+
+ASNs list scrapping for Congo ended
+
+ASNs list scrapping for Bahamas started
+
+ASNs list scrapping for Bahamas ended
+
+ASNs list scrapping for Vanuatu started
+
+ASNs list scrapping for Vanuatu ended
+
+ASNs list scrapping for San Marino started
+
+ASNs list scrapping for San Marino ended
+
+ASNs list scrapping for Haiti started
+
+ASNs list scrapping for Haiti ended
+
+ASNs list scrapping for Algeria started
+
+ASNs list scrapping for Algeria ended
+
+ASNs list scrapping for Swaziland started
+
+ASNs list scrapping for Swaziland ended
+
+ASNs list scrapping for Sudan started
+
+ASNs list scrapping for Sudan ended
+
+ASNs list scrapping for Virgin Islands, U.S. started
+
+ASNs list scrapping for Virgin Islands, U.S. ended
+
+ASNs list scrapping for Syrian Arab Republic started
+
+ASNs list scrapping for Syrian Arab Republic ended
+
+ASNs list scrapping for Marshall Islands started
+
+ASNs list scrapping for Marshall Islands ended
+
+ASNs list scrapping for Jersey started
+
+ASNs list scrapping for Jersey ended
+
+ASNs list scrapping for Gambia started
+
+ASNs list scrapping for Gambia ended
+
+ASNs list scrapping for Gabon started
+
+ASNs list scrapping for Gabon ended
+
+ASNs list scrapping for Samoa started
+
+ASNs list scrapping for Samoa ended
+
+ASNs list scrapping for Togo started
+
+ASNs list scrapping for Togo ended
+
+ASNs list scrapping for Solomon Islands started
+
+ASNs list scrapping for Solomon Islands ended
+
+ASNs list scrapping for Mali started
+
+ASNs list scrapping for Mali ended
+
+ASNs list scrapping for Madagascar started
+
+ASNs list scrapping for Madagascar ended
+
+ASNs list scrapping for Lesotho started
+
+ASNs list scrapping for Lesotho ended
+
+ASNs list scrapping for Guam started
+
+ASNs list scrapping for Guam ended
+
+ASNs list scrapping for Guernsey started
+
+ASNs list scrapping for Guernsey ended
+
+ASNs list scrapping for Grenada started
+
+ASNs list scrapping for Grenada ended
+
+ASNs list scrapping for Cape Verde started
+
+ASNs list scrapping for Cape Verde ended
+
+ASNs list scrapping for Guadeloupe started
+
+ASNs list scrapping for Guadeloupe ended
+
+ASNs list scrapping for Faroe Islands started
+
+ASNs list scrapping for Faroe Islands ended
+
+ASNs list scrapping for Ethiopia started
+
+ASNs list scrapping for Ethiopia ended
+
+ASNs list scrapping for Brunei Darussalam started
+
+ASNs list scrapping for Brunei Darussalam ended
+
+ASNs list scrapping for Barbados started
+
+ASNs list scrapping for Barbados ended
+
+ASNs list scrapping for Niger started
+
+ASNs list scrapping for Niger ended
+
+ASNs list scrapping for Mauritania started
+
+ASNs list scrapping for Mauritania ended
+
+ASNs list scrapping for Saint Kitts and Nevis started
+
+ASNs list scrapping for Saint Kitts and Nevis ended
+
+ASNs list scrapping for Burundi started
+
+ASNs list scrapping for Burundi ended
+
+ASNs list scrapping for Turkmenistan started
+
+ASNs list scrapping for Turkmenistan ended
+
+ASNs list scrapping for RÉUNION started
+
+ASNs list scrapping for RÉUNION ended
+
+ASNs list scrapping for Martinique started
+
+ASNs list scrapping for Martinique ended
+
+ASNs list scrapping for Saint Lucia started
+
+ASNs list scrapping for Saint Lucia ended
+
+ASNs list scrapping for Dominica started
+
+ASNs list scrapping for Dominica ended
+
+ASNs list scrapping for Suriname started
+
+ASNs list scrapping for Suriname ended
+
+ASNs list scrapping for Guyana started
+
+ASNs list scrapping for Guyana ended
+
+ASNs list scrapping for Equatorial Guinea started
+
+ASNs list scrapping for Equatorial Guinea ended
+
+ASNs list scrapping for French Guiana started
+
+ASNs list scrapping for French Guiana ended
+
+ASNs list scrapping for Cuba started
+
+ASNs list scrapping for Cuba ended
+
+ASNs list scrapping for Yemen started
+
+ASNs list scrapping for Yemen ended
+
+ASNs list scrapping for Saint Vincent and the Grenadines started
+
+ASNs list scrapping for Saint Vincent and the Grenadines ended
+
+ASNs list scrapping for French Polynesia started
+
+ASNs list scrapping for French Polynesia ended
+
+ASNs list scrapping for Saint Martin (French part) started
+
+ASNs list scrapping for Saint Martin (French part) ended
+
+ASNs list scrapping for Kiribati started
+
+ASNs list scrapping for Kiribati ended
+
+ASNs list scrapping for Micronesia, Federated States of started
+
+ASNs list scrapping for Micronesia, Federated States of ended
+
+ASNs list scrapping for Bonaire, Sint Eustatius and Saba started
+
+ASNs list scrapping for Bonaire, Sint Eustatius and Saba ended
+
+ASNs list scrapping for Tonga started
+
+ASNs list scrapping for Tonga ended
+
+ASNs list scrapping for Nauru started
+
+ASNs list scrapping for Nauru ended
+
+ASNs list scrapping for Djibouti started
+
+ASNs list scrapping for Djibouti ended
+
+ASNs list scrapping for Andorra started
+
+ASNs list scrapping for Andorra ended
+
+ASNs list scrapping for Holy See (Vatican City State) started
+
+ASNs list scrapping for Holy See (Vatican City State) ended
+
+ASNs list scrapping for Sint Maarten (Dutch part) started
+
+ASNs list scrapping for Sint Maarten (Dutch part) ended
+
+ASNs list scrapping for Palau started
+
+ASNs list scrapping for Palau ended
+
+ASNs list scrapping for Monaco started
+
+ASNs list scrapping for Monaco ended
+
+ASNs list scrapping for Central African Republic started
+
+ASNs list scrapping for Central African Republic ended
+
+ASNs list scrapping for Saint Barthélemy started
+
+ASNs list scrapping for Saint Barthélemy ended
+
+ASNs list scrapping for Aruba started
+
+ASNs list scrapping for Aruba ended
+
+ASNs list scrapping for Anguilla started
+
+ASNs list scrapping for Anguilla ended
+
+ASNs list scrapping for Tuvalu started
+
+ASNs list scrapping for Tuvalu ended
+
+ASNs list scrapping for Tokelau started
+
+ASNs list scrapping for Tokelau ended
+
+ASNs list scrapping for Comoros started
+
+ASNs list scrapping for Comoros ended
+
+ASNs list scrapping for  started
+
+ASNs list scrapping for  ended
+
+ASNs list scrapping for Turks and Caicos Islands started
+
+ASNs list scrapping for Turks and Caicos Islands ended
+
+ASNs list scrapping for Sao Tome and Principe started
+
+ASNs list scrapping for Sao Tome and Principe ended
+
+ASNs list scrapping for Norfolk Island started
+
+ASNs list scrapping for Norfolk Island ended
+
+ASNs list scrapping for Northern Mariana Islands started
+
+ASNs list scrapping for Northern Mariana Islands ended
+
+ASNs list scrapping for Guinea-Bissau started
+
+ASNs list scrapping for Guinea-Bissau ended
+
+ASNs list scrapping for Falkland Islands (Malvinas) started
+
+ASNs list scrapping for Falkland Islands (Malvinas) ended
+
+ASNs list scrapping for Cook Islands started
+
+ASNs list scrapping for Cook Islands ended
+
+ASNs list scrapping for American Samoa started
+
+ASNs list scrapping for American Samoa ended
+
+ASNs list scrapping for Mayotte started
+
+ASNs list scrapping for Mayotte ended
+
+ASNs list scrapping for Wallis and Futuna started
+
+ASNs list scrapping for Wallis and Futuna ended
+
+ASNs list scrapping for United Kingdom started
+
+Table with asns id not found
+ASNs list scrapping for United Kingdom ended
+
+ASNs list scrapping for Saint Pierre and Miquelon started
+
+ASNs list scrapping for Saint Pierre and Miquelon ended
+
+ASNs list scrapping for Niue started
+
+ASNs list scrapping for Niue ended
+
+ASNs list scrapping for Montserrat started
+
+ASNs list scrapping for Montserrat ended
+
+ASNs list scrapping for Korea, Democratic People's Republic of started
+
+ASNs list scrapping for Korea, Democratic People's Republic of ended
+
+ASNs list scrapping for British Indian Ocean Territory started
+
+ASNs list scrapping for British Indian Ocean Territory ended
+
+ASNs list scrapping for South Georgia and the South Sandwich Islands started
+
+ASNs list scrapping for South Georgia and the South Sandwich Islands ended
+
+ASNs list scrapping for Greenland started
+
+ASNs list scrapping for Greenland ended
+
+ASNs list scrapping for Eritrea started
+
+ASNs list scrapping for Eritrea ended
+
+ASNs list scrapping for Åland Islands started
+
+ASNs list scrapping for Åland Islands ended
+
+ASNs list scrapping for Antarctica started
+
+ASNs list scrapping for Antarctica ended
+

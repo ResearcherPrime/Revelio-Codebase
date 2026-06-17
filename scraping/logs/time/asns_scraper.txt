@@ -1,0 +1,244 @@
+United States: 10.78 seconds
+Brazil: 7.25 seconds
+China: 4.64 seconds
+Russian Federation: 4.28 seconds
+India: 3.44 seconds
+Indonesia: 3.50 seconds
+United Kingdom: 2.81 seconds
+Germany: 2.93 seconds
+Australia: 2.56 seconds
+Poland: 2.79 seconds
+Canada: 2.54 seconds
+Ukraine: 2.44 seconds
+France: 2.59 seconds
+Bangladesh: 2.66 seconds
+Netherlands: 2.07 seconds
+Italy: 2.01 seconds
+Hong Kong: 1.94 seconds
+Romania: 1.95 seconds
+Argentina: 1.99 seconds
+Japan: 2.14 seconds
+Spain: 2.13 seconds
+Turkey: 2.09 seconds
+Korea, Republic of: 2.16 seconds
+Switzerland: 1.94 seconds
+Viet Nam: 1.81 seconds
+Sweden: 1.69 seconds
+Iran, Islamic Republic of: 1.61 seconds
+Bulgaria: 1.63 seconds
+South Africa: 1.92 seconds
+Austria: 1.79 seconds
+Mexico: 1.69 seconds
+Czech Republic: 1.81 seconds
+Singapore: 1.54 seconds
+New Zealand: 1.74 seconds
+Philippines: 1.61 seconds
+Thailand: 1.62 seconds
+Colombia: 1.53 seconds
+Denmark: 1.36 seconds
+Taiwan: 1.27 seconds
+Pakistan: 1.40 seconds
+Norway: 1.37 seconds
+Chile: 1.31 seconds
+Israel: 1.28 seconds
+Belgium: 1.30 seconds
+Malaysia: 1.49 seconds
+Finland: 1.32 seconds
+Latvia: 1.31 seconds
+European Union: 1.06 seconds
+Hungary: 1.27 seconds
+Ireland: 1.39 seconds
+Slovenia: 1.31 seconds
+Greece: 1.36 seconds
+Nigeria: 1.33 seconds
+Ecuador: 1.40 seconds
+Venezuela, Bolivarian Republic of: 1.39 seconds
+Kazakhstan: 1.25 seconds
+Kenya: 1.24 seconds
+Peru: 1.42 seconds
+Slovakia: 1.31 seconds
+Lithuania: 1.32 seconds
+Estonia: 1.25 seconds
+Moldova, Republic of: 1.24 seconds
+Dominican Republic: 1.39 seconds
+Serbia: 1.40 seconds
+Iraq: 1.24 seconds
+Nepal: 1.23 seconds
+Saudi Arabia: 1.24 seconds
+United Arab Emirates: 1.29 seconds
+Croatia: 1.25 seconds
+Lebanon: 1.21 seconds
+Cyprus: 1.20 seconds
+Portugal: 1.34 seconds
+Georgia: 1.31 seconds
+Myanmar: 1.21 seconds
+Cambodia: 0.99 seconds
+Panama: 0.99 seconds
+Armenia: 1.01 seconds
+Luxembourg: 0.98 seconds
+Belarus: 1.12 seconds
+Uzbekistan: 0.99 seconds
+Albania: 1.06 seconds
+Costa Rica: 1.03 seconds
+Puerto Rico: 1.09 seconds
+Ghana: 0.99 seconds
+Tanzania, United Republic of: 1.09 seconds
+Honduras: 1.10 seconds
+Paraguay: 1.10 seconds
+Azerbaijan: 1.03 seconds
+Seychelles: 0.97 seconds
+Guatemala: 1.09 seconds
+Egypt: 1.06 seconds
+Iceland: 1.15 seconds
+Kuwait: 1.03 seconds
+Afghanistan: 1.08 seconds
+Mongolia: 1.07 seconds
+Angola: 1.01 seconds
+Kyrgyzstan: 0.96 seconds
+Palestine: 0.98 seconds
+Macedonia, The Former Yugoslav Republic of: 1.07 seconds
+Uganda: 0.99 seconds
+Bolivia, Plurinational State of: 1.05 seconds
+Bosnia and Herzegovina: 0.99 seconds
+Jordan: 1.00 seconds
+Congo, The Democratic Republic of the: 0.98 seconds
+El Salvador: 0.97 seconds
+Malta: 1.06 seconds
+Mauritius: 0.95 seconds
+Uruguay: 0.95 seconds
+Virgin Islands, British: 0.99 seconds
+Lao People's Democratic Republic: 0.97 seconds
+Papua New Guinea: 0.96 seconds
+Tajikistan: 0.95 seconds
+Bhutan: 0.95 seconds
+Curaçao: 0.83 seconds
+Botswana: 0.96 seconds
+Zimbabwe: 1.06 seconds
+Morocco: 0.99 seconds
+Malawi: 1.05 seconds
+Belize: 0.97 seconds
+Nicaragua: 0.95 seconds
+Mozambique: 1.08 seconds
+Libya: 1.06 seconds
+Sri Lanka: 0.96 seconds
+Cameroon: 0.76 seconds
+Burkina Faso: 1.04 seconds
+Rwanda: 1.09 seconds
+Montenegro: 1.03 seconds
+Liechtenstein: 0.96 seconds
+Côte d'Ivoire: 1.07 seconds
+Tunisia: 0.99 seconds
+Isle of Man: 0.85 seconds
+Qatar: 1.18 seconds
+Gibraltar: 0.97 seconds
+Bahrain: 1.19 seconds
+Oman: 0.96 seconds
+Zambia: 1.06 seconds
+Somalia: 0.81 seconds
+Bermuda: 0.76 seconds
+South Sudan: 0.98 seconds
+Senegal: 0.82 seconds
+Fiji: 0.80 seconds
+Sierra Leone: 0.84 seconds
+Namibia: 0.77 seconds
+Timor-Leste: 0.73 seconds
+Guinea: 0.85 seconds
+Benin: 0.98 seconds
+Antigua and Barbuda: 0.80 seconds
+New Caledonia: 0.78 seconds
+Maldives: 0.75 seconds
+Cayman Islands: 0.80 seconds
+Chad: 0.73 seconds
+Liberia: 0.75 seconds
+Trinidad and Tobago: 0.95 seconds
+Macao: 0.75 seconds
+Jamaica: 0.75 seconds
+Congo: 0.75 seconds
+Bahamas: 0.79 seconds
+Vanuatu: 0.79 seconds
+San Marino: 0.80 seconds
+Haiti: 0.73 seconds
+Algeria: 0.73 seconds
+Swaziland: 0.74 seconds
+Sudan: 0.75 seconds
+Virgin Islands, U.S.: 0.74 seconds
+Syrian Arab Republic: 0.82 seconds
+Marshall Islands: 0.81 seconds
+Jersey: 0.76 seconds
+Gambia: 0.79 seconds
+Gabon: 0.84 seconds
+Samoa: 0.75 seconds
+Togo: 0.80 seconds
+Solomon Islands: 0.81 seconds
+Mali: 0.80 seconds
+Madagascar: 0.77 seconds
+Lesotho: 0.83 seconds
+Guam: 0.77 seconds
+Guernsey: 0.74 seconds
+Grenada: 0.83 seconds
+Cape Verde: 0.73 seconds
+Guadeloupe: 0.81 seconds
+Faroe Islands: 0.74 seconds
+Ethiopia: 0.74 seconds
+Brunei Darussalam: 0.74 seconds
+Barbados: 0.74 seconds
+Niger: 0.75 seconds
+Mauritania: 0.85 seconds
+Saint Kitts and Nevis: 0.74 seconds
+Burundi: 0.80 seconds
+Turkmenistan: 0.76 seconds
+RÉUNION: 0.73 seconds
+Martinique: 0.75 seconds
+Saint Lucia: 0.74 seconds
+Dominica: 0.80 seconds
+Suriname: 0.77 seconds
+Guyana: 0.80 seconds
+Equatorial Guinea: 0.81 seconds
+French Guiana: 0.73 seconds
+Cuba: 0.73 seconds
+Yemen: 0.83 seconds
+Saint Vincent and the Grenadines: 0.73 seconds
+French Polynesia: 0.74 seconds
+Saint Martin (French part): 0.83 seconds
+Kiribati: 0.82 seconds
+Micronesia, Federated States of: 0.78 seconds
+Bonaire, Sint Eustatius and Saba: 0.77 seconds
+Tonga: 0.73 seconds
+Nauru: 0.75 seconds
+Djibouti: 0.80 seconds
+Andorra: 0.76 seconds
+Holy See (Vatican City State): 0.73 seconds
+Sint Maarten (Dutch part): 0.75 seconds
+Palau: 0.76 seconds
+Monaco: 0.79 seconds
+Central African Republic: 0.74 seconds
+Saint Barthélemy: 0.83 seconds
+Aruba: 0.74 seconds
+Anguilla: 0.81 seconds
+Tuvalu: 0.76 seconds
+Tokelau: 0.74 seconds
+Comoros: 0.73 seconds
+: 0.74 seconds
+Turks and Caicos Islands: 0.86 seconds
+Sao Tome and Principe: 0.80 seconds
+Norfolk Island: 0.74 seconds
+Northern Mariana Islands: 0.74 seconds
+Guinea-Bissau: 0.74 seconds
+Falkland Islands (Malvinas): 0.78 seconds
+Cook Islands: 0.75 seconds
+American Samoa: 0.74 seconds
+Mayotte: 0.75 seconds
+Wallis and Futuna: 0.82 seconds
+United Kingdom: 0.84 seconds
+Saint Pierre and Miquelon: 0.74 seconds
+Niue: 0.75 seconds
+Montserrat: 0.74 seconds
+Korea, Democratic People's Republic of: 0.82 seconds
+British Indian Ocean Territory: 1.89 seconds
+South Georgia and the South Sandwich Islands: 3.29 seconds
+Greenland: 0.74 seconds
+Eritrea: 0.74 seconds
+Åland Islands: 0.81 seconds
+Antarctica: 0.79 seconds
+
+Total Time: 0h 8m 58s
