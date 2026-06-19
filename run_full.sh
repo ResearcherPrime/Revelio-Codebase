@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+# This code is to run the entire Revelio pipline for all country and apps (relevant to AE-Phase 1) 
 
 set -e
 set -u

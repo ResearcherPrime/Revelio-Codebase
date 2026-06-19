@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+# This code is required for extracting the input dataset shared in the `graphs_from_paper` directory.
 
 BASE="graphs_from_paper"
 

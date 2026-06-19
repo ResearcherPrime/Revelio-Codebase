@@ -31,7 +31,7 @@ echo "$COUNTRY" > "$REPO_ROOT/stun_trace/input.csv"
 
 # Copy probe definitions (P1, P2, P3)
 
-# Select the diff file based on application filtered in that country
+# Select the conf file based on voip application filtered in that country
 if [[ "$APP_NAME" == "whatsapp" ]]; then
     cp "$SCRIPT_DIR"/config/zstun_probing/stun_pkts.conf.whatsapp "$REPO_ROOT/zstun_probing/scripts/stun/stun_pkts.conf"
     cp "$SCRIPT_DIR"/config/zstun_probing_analysis/app_labels.conf.whatsapp "$REPO_ROOT/zstun_probing_analysis/app_labels.conf"
