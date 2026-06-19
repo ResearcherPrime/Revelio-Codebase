@@ -103,36 +103,36 @@ for ((i=1; i<=NUM_SESSIONS; i++))                                               
 do
     # Create new tmux session
 
-    if tmux has-session -t "session_$i" 2>/dev/null; then
-        tmux kill-session -t "session_$i"
+    if tmux has-session -t "zstun_session_$i" 2>/dev/null; then
+        tmux kill-session -t "zstun_session_$i"
     fi
 
-    tmux new-session -d -s "session_$i"
+    tmux new-session -d -s "zstun_session_$i"
     
     # Split window into four panes in a 2x2 grid
 
-    tmux split-window -h -t "session_$i:0.0"
+    tmux split-window -h -t "zstun_session_$i:0.0"
 
-    tmux split-window -v -t "session_$i:0.0"
+    tmux split-window -v -t "zstun_session_$i:0.0"
 
-    tmux split-window -v -t "session_$i:0.1"
+    tmux split-window -v -t "zstun_session_$i:0.1"
 
     # Store pane IDs
 
     PANE_LIST+=(
-        "session_$i:0.0"
-        "session_$i:0.1"
-        "session_$i:0.2"
-        "session_$i:0.3"
+        "zstun_session_$i:0.0"
+        "zstun_session_$i:0.1"
+        "zstun_session_$i:0.2"
+        "zstun_session_$i:0.3"
     )
 
     # Retile panes for even 2x2 grid distribution
 
-    tmux select-layout -t "session_$i:0" tiled
+    tmux select-layout -t "zstun_session_$i:0" tiled
     
     # Select first pane
 
-    tmux select-pane -t "session_$i:0.0"
+    tmux select-pane -t "zstun_session_$i:0.0"
 done
 
 # --------------------------------------------------

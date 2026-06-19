@@ -1,0 +1,6 @@
+# packet_folder,label,role,paired_app
+
+stun_a,STUN_Allocate,baseline,
+
+signal_a_u,Signal,normal,signal_a_u_randomrealm
+signal_a_u_randomrealm,Signal_Modified,modified,signal_a_u

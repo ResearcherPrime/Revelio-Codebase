@@ -19,9 +19,9 @@ INPUT_FILE="$SCRIPT_DIR/input.csv"
 
 source "$REPO_ROOT/venv/bin/activate"
 
-# rm -rf "$TRACE_OUTPUT_ROOT"
+rm -rf "$TRACE_OUTPUT_ROOT"
 
-# mkdir -p "$TRACE_OUTPUT_ROOT"
+mkdir -p "$TRACE_OUTPUT_ROOT"
 
 # --------------------------------------------------
 # Arguments

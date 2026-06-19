@@ -2,9 +2,12 @@
 import ipaddress
 import sys
 import os
+from pathlib import Path
+
+SCRIPT_DIR = Path(__file__).resolve().parent
 
 # Hardcoded path for the shared log file
-LOG_FILE = "./logs/exec/copy_prefixes.log"
+LOG_FILE = f"{SCRIPT_DIR}/logs/exec/copy_prefixes.log"
 
 def log_and_print(message: str):
     # Print to stdout and append to log file.

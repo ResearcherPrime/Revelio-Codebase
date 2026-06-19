@@ -1,10 +1,26 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
-# --- CONFIGURATION ---
-INPUT_DIR="../scraping/prefixes"                                                # Folder containing input CSVs with scraped data (ASN, Prefix)
-OUTPUT_DIR="./prefixes"                                                         # Output folder for cleaned prefix files
-PYTHON_SCRIPT="./merge_prefixes.py"                                             # Python script to merge overlapping prefixes
-LOG_FILE="./logs/exec/copy_prefixes.log"                                        # Combined log file for all execution
+set -e
+set -u
+
+# --------------------------------------------------
+# Paths
+# --------------------------------------------------
+
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+REPO_ROOT="$(cd "$SCRIPT_DIR/.." && pwd)"
+
+# Activate Python virtual environment
+source "$REPO_ROOT/venv/bin/activate"
+
+# --------------------------------------------------
+# Dir paths
+# --------------------------------------------------
+
+INPUT_DIR="$REPO_ROOT/scraping/prefixes"                                                  # Folder containing input CSVs with scraped data (ASN, Prefix)
+OUTPUT_DIR="$SCRIPT_DIR/prefixes"                                                         # Output folder for cleaned prefix files
+PYTHON_SCRIPT="$SCRIPT_DIR/merge_prefixes.py"                                             # Python script to merge overlapping prefixes
+LOG_FILE="$SCRIPT_DIR/logs/exec/copy_prefixes.log"                                        # Combined log file for all execution
 
 mkdir -p "$OUTPUT_DIR"
 

@@ -1,4 +1,5 @@
 import requests
+from requests.exceptions import RequestException
 from bs4 import BeautifulSoup
 import csv
 import time
@@ -53,7 +54,11 @@ def scrape(url):
 
     ip_set = set()
 
-    response = requests.get(url, timeout=30)
+    try:
+        response = requests.get(url, timeout=60)
+    except RequestException as e:
+        log.write(f"Request failed: {url} : {e}\n")
+        return []
 
     if response.status_code == 200:
 

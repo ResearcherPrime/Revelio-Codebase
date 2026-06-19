@@ -14,7 +14,7 @@ MODE="${1:-full}"
 # Configuration
 # --------------------------------------------------
 
-SESSION="session"
+SESSION="scraping_session"
 WEBHOOK_URL=""
 
 TMPDIR="$SCRIPT_DIR/logs/temp"

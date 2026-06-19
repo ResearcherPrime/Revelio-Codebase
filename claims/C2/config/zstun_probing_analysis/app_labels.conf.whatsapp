@@ -1,0 +1,6 @@
+# packet_folder,label,role,paired_app
+
+stun_a,STUN_Allocate,baseline,
+
+whatsapp_a_vo,WhatsApp,normal,whatsapp_a_vo_randomattr
+whatsapp_a_vo_randomattr,WhatsApp_Modified,modified,whatsapp_a_vo

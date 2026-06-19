@@ -1,4 +1,22 @@
 #!/usr/bin/env bash
+
+set -e
+set -u
+
+# --------------------------------------------------
+# Paths
+# --------------------------------------------------
+
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+REPO_ROOT="$(cd "$SCRIPT_DIR/.." && pwd)"
+
+# Activate Python virtual environment
+source "$REPO_ROOT/venv/bin/activate"
+
+# --------------------------------------------------
+# Dir paths
+# --------------------------------------------------
+
 if [[ $# -ne 3 ]] ; then
 	echo 'Usage ./zmap_tcp.sh country.csv sport dport'
     exit 1
@@ -8,11 +26,12 @@ COUNTRY_FILE=$1
 SOURCE_PORT=$2
 TARGET_PORT=$3
 COUNTRY="${COUNTRY_FILE%.*}"
+NUM_PROBES=10
 
-PREFIX_DIR="./prefixes"
-OUTPUT_DIR="./output/$COUNTRY"
-EXEC_LOG="./logs/exec/$COUNTRY/tcp_$TARGET_PORT.log"
-TIME_LOG="./logs/time/$COUNTRY/tcp_$TARGET_PORT.log"
+PREFIX_DIR="$SCRIPT_DIR/prefixes"
+OUTPUT_DIR="$SCRIPT_DIR/output/$COUNTRY"
+EXEC_LOG="$SCRIPT_DIR/logs/exec/$COUNTRY/tcp_$TARGET_PORT.log"
+TIME_LOG="$SCRIPT_DIR/logs/time/$COUNTRY/tcp_$TARGET_PORT.log"
 
 # Ensure output & log folder exists
 mkdir -p "$OUTPUT_DIR" "$(dirname "$EXEC_LOG")" "$(dirname "$TIME_LOG")"
@@ -34,7 +53,8 @@ if [[ -f "$input" ]]; then
 		-o "$output" --output-fields=saddr,outer_saddr,success,classification,icmp_type,icmp_code \
 		-s $SOURCE_PORT \
 		-B 300M \
-		--blocklist-file blocklist.txt 2>> "$EXEC_LOG" 
+        --probes "$NUM_PROBES" \
+		--blocklist-file $SCRIPT_DIR/blocklist.txt 2>> "$EXEC_LOG" 
 	echo -e "\n[INFO] Zmap scan for tcp port $TARGET_PORT completed for $COUNTRY\n" | tee -a "$EXEC_LOG"
 
 	zmap_end=$(date +%s)

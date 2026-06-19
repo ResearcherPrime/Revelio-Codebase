@@ -1,0 +1,6 @@
+# packet_folder,label,role,paired_app
+
+stun_a,STUN_Allocate,baseline,
+
+telegram_a_u,Telegram,normal,telegram_a_u_randomrealm
+telegram_a_u_randomrealm,Telegram_Modified,modified,telegram_a_u

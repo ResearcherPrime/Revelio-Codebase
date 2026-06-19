@@ -1,0 +1,6 @@
+# packet_folder,label,role,paired_app
+
+stun_a,STUN_Allocate,baseline,
+
+messenger_a_u,Messenger,normal,messenger_a_u_randomrealm
+messenger_a_u_randomrealm,Messenger_Modified,modified,messenger_a_u
