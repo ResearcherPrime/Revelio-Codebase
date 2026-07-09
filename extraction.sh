@@ -2,6 +2,9 @@
 # This code is required for extracting the input dataset shared in the `graphs_from_paper` directory.
 
 BASE="graphs_from_paper"
+OUTPUT_DIR="$BASE/reference_output"
+
+mkdir -p "$OUTPUT_DIR"
 
 echo "[*] Extracting datasets..."
 
@@ -13,8 +16,8 @@ for file in "$BASE/input"/*.tar.xz; do
     tar -xJf "$file" -C "$BASE/input"
 done
 
-echo "[*] Extracting output..."
+echo "[*] Extracting output to expect..."
 
-tar -xJf "$BASE/output.tar.xz" -C "$BASE"
+tar -xJf "$BASE/output.tar.xz" -C "$OUTPUT_DIR" --strip-components=1
 
 echo "[*] Done."
