@@ -3,7 +3,7 @@ import subprocess
 import csv
 import glob
 
-TRUSTED_PARSER = "figure11_script_a_categorise_outcomes.py"
+TRUSTED_PARSER = "figure12_script_a_categorise_outcomes.py"
 PER_JSON_DIR = "output/per_json_csv"
 FINAL_OUT_DIR = "output/per_country_csv"
 RAW_DIR = "input/dataset_4"
