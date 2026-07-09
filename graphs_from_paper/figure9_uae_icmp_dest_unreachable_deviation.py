@@ -6,7 +6,7 @@ from collections import defaultdict
 
 # --- Arguments ---
 country = "United_Arab_Emirates"
-scan_folder = "input/dataset_2"
+scan_folder = "input/dataset_2_anon"
 
 # --- Apps ---
 apps = [

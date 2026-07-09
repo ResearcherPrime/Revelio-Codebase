@@ -3,10 +3,10 @@ import subprocess
 import csv
 import glob
 
-TRUSTED_PARSER = "plotting/figure11_script_a_categorise_outcomes.py"
-PER_JSON_DIR = "plotting/output/per_json_csv"
-FINAL_OUT_DIR = "plotting/output/per_country_csv"
-RAW_DIR = "plotting/input/dataset_4"
+TRUSTED_PARSER = "figure11_script_a_categorise_outcomes.py"
+PER_JSON_DIR = "output/per_json_csv"
+FINAL_OUT_DIR = "output/per_country_csv"
+RAW_DIR = "input/dataset_4"
 
 os.makedirs(FINAL_OUT_DIR, exist_ok=True)
 os.makedirs(PER_JSON_DIR, exist_ok=True)

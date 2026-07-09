@@ -5,8 +5,8 @@ import os
 from matplotlib.colors import ListedColormap
 
 # Setup paths
-CSV_PATH = "plotting/output/plot_data/domain_filtering_percentage.csv"
-OUT_DIR = "plotting/output"
+CSV_PATH = "output/plot_data/domain_filtering_percentage.csv"
+OUT_DIR = "output"
 os.makedirs(OUT_DIR, exist_ok=True)
 
 df = pd.read_csv(CSV_PATH)

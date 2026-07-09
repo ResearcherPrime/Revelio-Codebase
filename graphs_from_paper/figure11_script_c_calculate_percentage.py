@@ -2,8 +2,8 @@ import os
 import csv
 from collections import defaultdict
 
-PER_COUNTRY_DIR = "plotting/output/per_country_csv"
-OUT_DIR = "plotting/output/plot_data"
+PER_COUNTRY_DIR = "output/per_country_csv"
+OUT_DIR = "output/plot_data"
 OUT_FILE = "domain_filtering_percentage.csv"
 
 # ---------------- DOMAIN → APP ----------------

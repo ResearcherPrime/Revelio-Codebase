@@ -88,7 +88,7 @@ for row in j.get("data", {}).get("hyperquack", []):
     daily_ip_asn_categories[date][(ip, asn)].add(category)
 
 # -------- PRINT FINAL CATEGORY PER IP,ASN PER DAY --------
-OUT_DIR = "plotting/output/per_json_csv"
+OUT_DIR = "output/per_json_csv"
 os.makedirs(OUT_DIR, exist_ok=True)
 
 country = os.path.basename(os.path.dirname(json_path))
