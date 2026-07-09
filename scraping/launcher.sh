@@ -31,7 +31,6 @@ TIME_LOG="$SCRIPT_DIR/logs/time"
 
 if [[ "$MODE" == "fast" ]]; then
     USE_TMUX=0
-    ENABLE_WEBHOOKS=0
     
     ASNS_CMD="python3 $SCRIPT_DIR/asns_scrapper.py \"United Arab Emirates\""
 
@@ -39,7 +38,6 @@ if [[ "$MODE" == "fast" ]]; then
 
 else
     USE_TMUX=1
-    ENABLE_WEBHOOKS=1
 
     ASNS_CMD=(
         "python3 $SCRIPT_DIR/asns_scrapper.py"
@@ -61,12 +59,12 @@ send_notification() {
 
     local payload="$1"
 
-    if [[ "$ENABLE_WEBHOOKS" -eq 0 ]]; then
-        return
-    fi
+    # If webhook URL is not configured, print the notification locally.
 
     if [[ -z "$WEBHOOK_URL" ]]; then
-        echo "[INFO] WEBHOOK_URL not configured"
+        # echo -e "\n[INFO] WEBHOOK_URL is not configured."
+        # echo "[INFO] Enter your own webhook URL to receive notifications."
+        echo -e "[INFO] Notification payload:\n$payload\n"
         return
     fi
 

@@ -47,8 +47,8 @@ send_notification() {
     # If webhook URL is not configured, print the notification locally.
 
     if [[ -z "$WEBHOOK_URL" ]]; then
-        echo -e "\n[INFO] WEBHOOK_URL is not configured."
-        echo "[INFO] Enter your own webhook URL to receive notifications."
+        # echo -e "\n[INFO] WEBHOOK_URL is not configured."
+        # echo "[INFO] Enter your own webhook URL to receive notifications."
         echo -e "[INFO] Notification payload:\n$payload\n"
         return
     fi
