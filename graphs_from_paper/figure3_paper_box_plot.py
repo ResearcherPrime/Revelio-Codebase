@@ -1,9 +1,11 @@
 import os
 import matplotlib.pyplot as plt
 import numpy as np
+from pathlib import Path
 
 # --- 1. Settings & Data Ingestion ---
-base = "input/dataset_3_anon"
+SCRIPT_DIR = Path(__file__).resolve().parent
+base = f"{SCRIPT_DIR}/input/dataset_3_anon"
 scan_folders =  ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22"]
 
 country_data = {}
@@ -98,7 +100,7 @@ plt.grid(True, axis="both", linestyle="-", linewidth=0.8, alpha=0.8, color='blac
 plt.tight_layout()
 
 # --- 4. Save Logic ---
-out_dir = "output"
+out_dir = f"{SCRIPT_DIR}/output"
 os.makedirs(out_dir, exist_ok=True)
 save_path = f"{out_dir}/global_count_barchart.png"
 plt.savefig(save_path, dpi=600, bbox_inches='tight')

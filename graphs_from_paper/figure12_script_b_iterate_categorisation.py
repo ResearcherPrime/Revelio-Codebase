@@ -2,11 +2,13 @@ import os
 import subprocess
 import csv
 import glob
+from pathlib import Path
 
-TRUSTED_PARSER = "figure12_script_a_categorise_outcomes.py"
-PER_JSON_DIR = "output/per_json_csv"
-FINAL_OUT_DIR = "output/per_country_csv"
-RAW_DIR = "input/dataset_4"
+SCRIPT_DIR = Path(__file__).resolve().parent
+TRUSTED_PARSER = f"{SCRIPT_DIR}/figure12_script_a_categorise_outcomes.py"
+PER_JSON_DIR = f"{SCRIPT_DIR}/output/per_json_csv"
+FINAL_OUT_DIR = f"{SCRIPT_DIR}/output/per_country_csv"
+RAW_DIR = f"{SCRIPT_DIR}/input/dataset_4"
 
 os.makedirs(FINAL_OUT_DIR, exist_ok=True)
 os.makedirs(PER_JSON_DIR, exist_ok=True)

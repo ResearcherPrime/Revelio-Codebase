@@ -5,10 +5,12 @@ import os
 import csv
 import ipaddress
 from collections import defaultdict
+from pathlib import Path
 
 # --- Arguments ---
 country = "United_Arab_Emirates"
-scan_folder = "input/dataset_2_anon"
+SCRIPT_DIR = Path(__file__).resolve().parent
+scan_folder = f"{SCRIPT_DIR}/input/dataset_2_anon"
 
 # --- Apps ---
 apps = [
@@ -66,7 +68,7 @@ no_response_count = len(total_ips) - len(stun_responded)
 print(no_response_count)
 
 # Output CSV path (intermediate)
-csv_out = f"output/no_response_deviation/{country}_per_ip_counts.csv"
+csv_out = f"{SCRIPT_DIR}/output/no_response_deviation/{country}_per_ip_counts.csv"
 os.makedirs(os.path.dirname(csv_out), exist_ok=True)
 
 # Prepare CSV writer
@@ -209,7 +211,7 @@ ax.ticklabel_format(style='sci', axis='y', scilimits=(6, 6))
 offset = ax.yaxis.get_offset_text()
 offset.set_fontsize(0)
 
-outpath = f"output/no_response_deviation/{country}_no_response_deviation.png"
+outpath = f"{SCRIPT_DIR}/output/no_response_deviation/{country}_no_response_deviation.png"
 plt.savefig(outpath, dpi=300)
 plt.close()
 print(f"[✓] Saved graph: {outpath}")

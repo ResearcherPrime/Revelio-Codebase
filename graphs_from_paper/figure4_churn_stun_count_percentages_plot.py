@@ -3,6 +3,7 @@ import sys
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
+from pathlib import Path
 
 # --- 1. Settings & Targets ---
 TARGET_COUNTRIES = [
@@ -20,7 +21,8 @@ COUNTRY_CODES = {
     "Saudi_Arabia": "SA", "Turkey": "TR", "United_Arab_Emirates": "AE"
 }
 
-base = "input/dataset_3_anon"
+SCRIPT_DIR = Path(__file__).resolve().parent
+base = f"{SCRIPT_DIR}/input/dataset_3_anon"
 scan_folders = ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22"]
 if len(scan_folders) < 2:
     print("Error: Provide at least 2 scan folders to calculate churn.")
@@ -112,6 +114,6 @@ plt.ylim(-1, None) # Start at 0, let max scale naturally
 plt.legend(bbox_to_anchor=(0.5, -0.1), loc='upper center', prop={'weight': 'bold', 'size': 20}, ncol=7, frameon=False, columnspacing=1.0)
 
 plt.tight_layout()
-out_dir = "output"
+out_dir = f"{SCRIPT_DIR}/output"
 os.makedirs(out_dir, exist_ok=True)
 plt.savefig(f"{out_dir}/combined_churn_percentage.png", dpi=300, bbox_inches='tight')

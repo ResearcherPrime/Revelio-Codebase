@@ -3,10 +3,12 @@ import matplotlib.pyplot as plt
 import numpy as np
 import os
 from collections import defaultdict
+from pathlib import Path
 
 # --- Arguments ---
 country = "United_Arab_Emirates"
-scan_folder = "input/dataset_1_anon"
+SCRIPT_DIR = Path(__file__).resolve().parent
+scan_folder = f"{SCRIPT_DIR}/input/dataset_1_anon"
 
 # --- Apps ---
 apps = [
@@ -94,7 +96,7 @@ for app in apps:
     resp_map = resp_map - unreliable_set
 
 # --- Plot ---
-os.makedirs(f"output/icmp_deviation", exist_ok=True)
+os.makedirs(f"{SCRIPT_DIR}/output/icmp_deviation", exist_ok=True)
 
 scale = 0.9
 x = np.arange(len(app_labels)) * scale   # <-- spread bars horizontally
@@ -141,7 +143,7 @@ plt.legend(loc='upper center', bbox_to_anchor=(0.5, 1.15),ncol=2, prop={'weight'
 
 plt.grid(axis='both', linestyle='-', linewidth=0.8, alpha=0.8, color='black', zorder=0)
 
-outpath = f"output/icmp_deviation/{country}_icmp_deviation_type_11.png"
+outpath = f"{SCRIPT_DIR}/output/icmp_deviation/{country}_icmp_deviation_type_11.png"
 plt.savefig(outpath, dpi=300)
 plt.close()
 print(f"[✓] Saved graph: {outpath}")

@@ -3,6 +3,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 import os
 from collections import defaultdict
+from pathlib import Path
 
 # --- Apps & Labels ---
 apps = [
@@ -27,7 +28,8 @@ app_labels = [
 
 threshold = 8
 country = "United_Arab_Emirates"
-scan_folder = "input/dataset_1_anon"
+SCRIPT_DIR = Path(__file__).resolve().parent
+scan_folder = f"{SCRIPT_DIR}/input/dataset_1_anon"
 
 # --- Paths ---
 output_base = f"{scan_folder}/{country}"
@@ -104,7 +106,7 @@ for app in apps[1:]:
     no_response_all.append(no_resp)
 
 # --- 2. VISUALIZATION ---
-os.makedirs("output/udp_deviation", exist_ok=True)
+os.makedirs(f"{SCRIPT_DIR}/output/udp_deviation", exist_ok=True)
 
 print("Pure UDP:", pure_udp_all)
 print("Pure ICMP:", pure_icmp_all)
@@ -168,7 +170,7 @@ plt.grid(axis='both', linestyle='-',linewidth=0.8, alpha=0.8, color='black', zor
 
 # --- 4. EXPORT ---
 plt.tight_layout()
-outpath = f"output/udp_deviation/{country}_udp_deviation.png"
+outpath = f"{SCRIPT_DIR}/output/udp_deviation/{country}_udp_deviation.png"
 plt.savefig(outpath, dpi=600)
 plt.close()
 

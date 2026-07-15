@@ -3,6 +3,7 @@ import sys
 import os
 import csv
 from collections import defaultdict
+from pathlib import Path
 
 # ---------- Outcome → Category mapping (dashboard-faithful) ----------
 UNCENSORED_PREFIXES = {
@@ -88,7 +89,8 @@ for row in j.get("data", {}).get("hyperquack", []):
     daily_ip_asn_categories[date][(ip, asn)].add(category)
 
 # -------- PRINT FINAL CATEGORY PER IP,ASN PER DAY --------
-OUT_DIR = "output/per_json_csv"
+SCRIPT_DIR = Path(__file__).resolve().parent
+OUT_DIR = f"{SCRIPT_DIR}/output/per_json_csv"
 os.makedirs(OUT_DIR, exist_ok=True)
 
 country = os.path.basename(os.path.dirname(json_path))

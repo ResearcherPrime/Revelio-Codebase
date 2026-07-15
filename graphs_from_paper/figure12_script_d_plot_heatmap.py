@@ -3,10 +3,12 @@ import matplotlib.pyplot as plt
 import numpy as np
 import os
 from matplotlib.colors import ListedColormap
+from pathlib import Path
 
 # Setup paths
-CSV_PATH = "output/plot_data/domain_filtering_percentage.csv"
-OUT_DIR = "output"
+SCRIPT_DIR = Path(__file__).resolve().parent
+CSV_PATH = f"{SCRIPT_DIR}/output/plot_data/domain_filtering_percentage.csv"
+OUT_DIR = f"{SCRIPT_DIR}/output"
 os.makedirs(OUT_DIR, exist_ok=True)
 
 df = pd.read_csv(CSV_PATH)
