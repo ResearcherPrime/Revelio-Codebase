@@ -77,7 +77,7 @@ for app in apps:
     pure_icmp_all.append(pure_icmp)
 
 # --- Plot ---
-os.makedirs(f"{SCRIPT_DIR}/output/icmp_deviation", exist_ok=True)
+os.makedirs(f"{SCRIPT_DIR}/output", exist_ok=True)
 
 scale = 0.9
 x = np.arange(len(app_labels)) * scale   # <-- spread bars horizontally
@@ -122,7 +122,7 @@ plt.legend(loc='upper center', bbox_to_anchor=(0.5, 1.15), prop={'weight': 'bold
 
 plt.grid(axis='both', linestyle='-', linewidth=0.8, alpha=0.8, zorder=0, color='black')
 
-outpath = f"{SCRIPT_DIR}/output/icmp_deviation/{country}_icmp_deviation_type_3.png"
+outpath = f"{SCRIPT_DIR}/output/figure_10_{country}_icmp_deviation_type_3.png"
 plt.savefig(outpath, dpi=300)
 plt.close()
 print(f"[✓] Saved graph: {outpath}")

@@ -116,4 +116,4 @@ plt.legend(bbox_to_anchor=(0.5, -0.1), loc='upper center', prop={'weight': 'bold
 plt.tight_layout()
 out_dir = f"{SCRIPT_DIR}/output"
 os.makedirs(out_dir, exist_ok=True)
-plt.savefig(f"{out_dir}/combined_churn_percentage.png", dpi=300, bbox_inches='tight')
+plt.savefig(f"{out_dir}/figure_4_combined_churn_percentage.png", dpi=300, bbox_inches='tight')

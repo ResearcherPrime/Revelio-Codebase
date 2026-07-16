@@ -1,11 +1,12 @@
 import os
 import csv
 from collections import defaultdict
+import shutil
 from pathlib import Path
 
 SCRIPT_DIR = Path(__file__).resolve().parent
 PER_COUNTRY_DIR = f"{SCRIPT_DIR}/output/per_country_csv"
-OUT_DIR = f"{SCRIPT_DIR}/output/plot_data"
+OUT_DIR = f"{SCRIPT_DIR}/output"
 OUT_FILE = "domain_filtering_percentage.csv"
 
 # ---------------- DOMAIN → APP ----------------
@@ -128,3 +129,6 @@ with open(out_path, "w", newline="") as f:
         ])
 
 print(f"[DONE] Wrote table to {out_path}")
+
+# Cleaning up temporary files
+shutil.rmtree(PER_COUNTRY_DIR)

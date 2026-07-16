@@ -7,13 +7,13 @@ from pathlib import Path
 
 # Setup paths
 SCRIPT_DIR = Path(__file__).resolve().parent
-CSV_PATH = f"{SCRIPT_DIR}/output/plot_data/domain_filtering_percentage.csv"
+CSV_PATH = f"{SCRIPT_DIR}/output/domain_filtering_percentage.csv"
 OUT_DIR = f"{SCRIPT_DIR}/output"
 os.makedirs(OUT_DIR, exist_ok=True)
 
 df = pd.read_csv(CSV_PATH)
 
-def plot_heatmap(source):
+def plot_heatmap(source, prefix):
     sub = df[df["source"] == source].copy()
     if sub.empty:
         return
@@ -135,12 +135,14 @@ def plot_heatmap(source):
 
     plt.subplots_adjust(left=0.25, right=0.75, top=0.85, bottom=0.15)
 
-    out = os.path.join(OUT_DIR, f"{source}_filtering_heatmap.png")
+    out = os.path.join(OUT_DIR, f"{prefix}_{source}_filtering_heatmap.png")
     plt.savefig(out, dpi=300, bbox_inches="tight")
     plt.close()
 
     print(f"[OK] Wrote {out}")
 
 # Run
-plot_heatmap("http")
-plot_heatmap("https")
+plot_heatmap("http", "figure12_a")
+plot_heatmap("https", "figure12_b")
+
+os.remove(CSV_PATH)

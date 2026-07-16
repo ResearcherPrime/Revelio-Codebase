@@ -102,7 +102,7 @@ plt.tight_layout()
 # --- 4. Save Logic ---
 out_dir = f"{SCRIPT_DIR}/output"
 os.makedirs(out_dir, exist_ok=True)
-save_path = f"{out_dir}/global_count_barchart.png"
+save_path = f"{out_dir}/figure_3_global_count_barchart.png"
 plt.savefig(save_path, dpi=600, bbox_inches='tight')
 
 print(f"Success! Plot saved to: {save_path}")

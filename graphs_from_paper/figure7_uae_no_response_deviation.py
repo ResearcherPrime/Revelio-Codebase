@@ -68,7 +68,7 @@ no_response_count = len(total_ips) - len(stun_responded)
 print(no_response_count)
 
 # Output CSV path (intermediate)
-csv_out = f"{SCRIPT_DIR}/output/no_response_deviation/{country}_per_ip_counts.csv"
+csv_out = f"{SCRIPT_DIR}/output/figure_7_{country}_per_ip_counts.csv"
 os.makedirs(os.path.dirname(csv_out), exist_ok=True)
 
 # Prepare CSV writer
@@ -149,6 +149,9 @@ for app in BAR_APPS:
     unreliable_counts_per_app.append(len(unreliable_ips.get(app, set())))
     icmp_counts_per_app.append(len(icmp_only_ips.get(app, set())))
 
+# Deleting temporary file made for helping with plotting
+os.remove(csv_out)
+
 # -------------------------- PLOTTING --------------------------
 scale = 0.9
 
@@ -211,7 +214,7 @@ ax.ticklabel_format(style='sci', axis='y', scilimits=(6, 6))
 offset = ax.yaxis.get_offset_text()
 offset.set_fontsize(0)
 
-outpath = f"{SCRIPT_DIR}/output/no_response_deviation/{country}_no_response_deviation.png"
+outpath = f"{SCRIPT_DIR}/output/figure_7_{country}_no_response_deviation.png"
 plt.savefig(outpath, dpi=300)
 plt.close()
 print(f"[✓] Saved graph: {outpath}")

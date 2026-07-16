@@ -106,7 +106,7 @@ for app in apps[1:]:
     no_response_all.append(no_resp)
 
 # --- 2. VISUALIZATION ---
-os.makedirs(f"{SCRIPT_DIR}/output/udp_deviation", exist_ok=True)
+os.makedirs(f"{SCRIPT_DIR}/output", exist_ok=True)
 
 print("Pure UDP:", pure_udp_all)
 print("Pure ICMP:", pure_icmp_all)
@@ -171,7 +171,7 @@ plt.grid(axis='both', linestyle='-',linewidth=0.8, alpha=0.8, color='black', zor
 
 # --- 4. EXPORT ---
 plt.tight_layout()
-outpath = f"{SCRIPT_DIR}/output/udp_deviation/{country}_udp_deviation.png"
+outpath = f"{SCRIPT_DIR}/output/figure_6_{country}_udp_deviation.png"
 plt.savefig(outpath, dpi=600)
 plt.close()
 

@@ -2,6 +2,7 @@ import os
 import subprocess
 import csv
 import glob
+import shutil
 from pathlib import Path
 
 SCRIPT_DIR = Path(__file__).resolve().parent
@@ -89,3 +90,5 @@ for country in sorted(COUNTRIES):
 
     print(f"[DONE] Country CSV written: {final_csv}")
 
+# Cleaning up temporary files
+shutil.rmtree(PER_JSON_DIR)
