@@ -194,6 +194,10 @@ def main():
 
         prefixes = []
 
+        as_idx = 0
+        total_asns = len(asns)
+        last_progress = -1
+
         for asn in asns:
 
             url = (
@@ -210,6 +214,16 @@ def main():
             temp = [(asn, ip) for ip in ips]
 
             prefixes.extend(temp)
+            
+            # Logging web scraping progress
+            as_idx += 1
+
+            percentage = (as_idx / total_asns) * 100
+            progress = int(percentage // 5) * 5
+
+            if progress != last_progress:
+                print(f"{country}: scraping progress {progress}%")
+                last_progress = progress
 
             # Waiting time between multiple scraping requests
             # sent by each scraping process
