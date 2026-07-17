@@ -29,5 +29,5 @@ thus it completes relatively faster than `run_comprehensive.sh` which verifies t
 thing for all the 19 countries that which were reported to do VoIP filtering.
 
 ## Expected run time
-- `run_demo.sh` : 5 mins (to be verified)
-- `run_comprehensive.sh` : 1 hour (to be verified)
+- `run_demo.sh` : 20 mins
+- `run_comprehensive.sh` : 21 hour

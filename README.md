@@ -2,7 +2,7 @@
 
 ## Overview
 
-Revelio-AE is an end-to-end network measurement framework focused on active measurements of STUN servers for censorship and network-security research.
+Revelio is an end-to-end network measurement framework focused on active measurements of STUN servers for censorship and network-security research.
 
 The pipeline supports:
 
@@ -19,9 +19,65 @@ The framework emphasizes:
 * modular orchestration
 * large-scale post-processing
 
----
+# Installation Notes
 
-# High-Level Workflow
+## Installation Steps
+
+The repository provides a helper setup script for installing the required dependencies and preparing the environment. Simply run:
+
+```
+bash setup.sh
+```
+
+The setup script installs:
+
+* Python dependencies
+* Scapy and plotting libraries
+* modified ZMap dependencies
+* required system packages
+* virtual environment setup components
+
+Some stages of the framework may require elevated privileges depending on the probing configuration.
+
+## Python Dependencies
+
+Typical dependencies include:
+
+* pandas
+* scapy
+* matplotlib
+* beautifulsoup4
+* requests
+* numpy
+
+## Zstun
+
+The framework uses a modified ZMap build for:
+
+* large-scale probing
+* STUN replay support
+* high-throughput packet generation
+
+See: `zstun_probing/README.md`
+
+# Artifact Evaluation Notes
+
+For basic functionality regarding tests the evaluators should 
+1. Follow the [Installation Notes](#installation-notes) section for setting up the necessary environment for running scripts.
+2. For reproducibility check follow the [Reproduce Graphs](#reproduce-graphs) section to automatically generate the plots from the paper
+3. For functionality check one can follow [Fast vs Full](#fast-vs-full-mode) section to run the piple line from top to bottom in two modes.
+4. For verifying [claims](#claims) made in the paper follow the independent README files from `claims/` directory.
+
+## Claims
+(C1): Zstun discovers usable STUN infrastructure that cannot be reliably identified using standard Internet-wide scanning approaches. (See [Claim-C1](claims/C1/README.md))
+
+(C2): Revelio accurately detects VoIP censorship through differences in responses for vanilla STUN, applicationspecific STUN, and modified application-specific STUN probes. (See [Claim-C2](claims/C2/README.md))
+
+(C3): StunTrace can identify and characterize censorship middleboxes from filtered destination IPs and reproduce representative examples of the middlebox behaviors in a target country. (See [Claim-C3](claims/C3/README.md))
+
+# Modules
+
+## High-Level Workflow
 
 ```text
 scraping
@@ -33,15 +89,10 @@ zstun_probing_analysis
 stun_trace
 ```
 
----
-
-# Modules
-
 ## 1. Scraping (`scraping/`)
 
-Responsible for:
+Responsible for country wise:
 
-* country scraping
 * ASN scraping
 * prefix scraping
 
@@ -52,8 +103,6 @@ Outputs:
 
 These datasets are later reused across all downstream modules.
 
----
-
 ## 2. ZSTUN Probing (`zstun_probing/`)
 
 Performs:
@@ -62,7 +111,7 @@ Performs:
 * replayed VoIP STUN probing
 * modified STUN packet probing
 
-Supported applications:
+Default supported applications:
 
 * WhatsApp
 * Telegram
@@ -78,8 +127,6 @@ The probing framework uses:
 * modified ZMap
 * replayed STUN packet captures
 * grouped workload balancing
-
----
 
 ## 3. ZSTUN Probing Analysis (`zstun_probing_analysis/`)
 
@@ -101,8 +148,6 @@ Outputs:
 
 These filtered outputs are later used for traceroute-based analysis.
 
----
-
 ## 4. STUN Trace (`stun_trace/`)
 
 Performs:
@@ -122,7 +167,16 @@ Outputs:
 * `stun_trace/trace_output/`
 * `stun_trace/middleboxes/`
 
----
+## 5. Graphs From Paper (`graphs_from_paper/`)
+
+Contains:
+* Plotting scripts to reproduce the graphs from the paper 
+* Anonymized scanning output datasets to be used as input
+* Launcher file which automates all the plotting process
+
+Output:
+* `graphs_from_paper/output` folder which contains all the graph output
+* `graphs_from_paper/reference_output` dir which contains graphs for reference for reviewers
 
 # Fast vs Full Mode
 
@@ -147,8 +201,6 @@ Run:
 bash run_fast.sh
 ```
 
----
-
 ## Full Mode
 
 Designed for:
@@ -170,7 +222,18 @@ Run:
 bash run_full.sh
 ```
 
----
+# Reproduce Graphs
+The graphs that were presented in the paper can be reproduced using
+the input dataset and the python scripts provided in the `graphs_from_paper`
+module. (See [Graphs From Paper](#5-graphs-from-paper-graphs_from_paper) for more details)
+
+To automatically extract dataset.tar.gz files and then reproduce all the graphs follow the steps below
+
+Run:
+
+```bash
+bash reproduce_graphs.sh
+```
 
 # Repository Structure
 
@@ -184,10 +247,9 @@ bash run_full.sh
 ├── external/
 ├── run_fast.sh
 ├── run_full.sh
+├── reproduce_graphs.sh
 └── README.md
 ```
-
----
 
 # Data and Outputs
 
@@ -198,15 +260,11 @@ scraping/asns/
 scraping/prefixes/
 ```
 
----
-
 ## Probing Outputs
 
 ```text
 zstun_probing/output/<COUNTRY>/
 ```
-
----
 
 ## Analysis Outputs
 
@@ -214,23 +272,17 @@ zstun_probing/output/<COUNTRY>/
 zstun_probing_analysis/output/<COUNTRY>/
 ```
 
----
-
 ## Traceroute Outputs
 
 ```text
 stun_trace/trace_output/
 ```
 
----
-
 ## Middlebox Outputs
 
 ```text
 stun_trace/middleboxes/
 ```
-
----
 
 # Logging
 
@@ -249,70 +301,6 @@ These include:
 * probing failures
 * timing summaries
 
----
-
-# Installation Notes
-
-## Installation Steps
-
-The repository provides a helper setup script for installing the required dependencies and preparing the environment. Simply run:
-
-```
-bash setup.sh
-```
-
-The setup script installs:
-
-* Python dependencies
-* Scapy and plotting libraries
-* modified ZMap dependencies
-* required system packages
-* virtual environment setup components
-
-Some stages of the framework may require elevated privileges depending on the probing configuration.
-
----
-
-## Python Dependencies
-
-Typical dependencies include:
-
-* pandas
-* scapy
-* matplotlib
-* beautifulsoup4
-* requests
-* numpy
-
----
-
-## Zstun
-
-The framework uses a modified ZMap build for:
-
-* large-scale probing
-* STUN replay support
-* high-throughput packet generation
-
-See: `zstun_probing/README.md`
-
----
-
-# Artifact Evaluation Notes
-
-Fast mode is intended for:
-
-* artifact evaluators
-* reproducibility checks
-* CI validation
-
-Full mode is intended for:
-
-* large-scale measurements
-* complete reproduction of experiments
-
----
-
 # Safety and Ethics
 
 * Respect probing blocklists and local policies
@@ -320,8 +308,6 @@ Full mode is intended for:
 * Rate-limit probing responsibly
 * Validate system capacity before high-rate scans
 * Some probing stages may require elevated privileges
-
----
 
 # Notes
 

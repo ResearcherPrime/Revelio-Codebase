@@ -27,8 +27,9 @@ of responses for WhatsApp (P2) compared to P1 and P3 probes.
 possible that the censorship behavior may deviate from what was reported in the paper` 
 
 ## How to run the scripts?
-Using `run.sh` sets up the scan for verifying claim-C2 for United_Arab_Emirates (the 
+Using `run_demo.sh` sets up the scan for verifying claim-C2 for United_Arab_Emirates (the 
 entire IP space). 
 
 ## Expected run time
-- `run.sh` : 5 mins (to be verified)
+- `run_demo.sh` : 60 mins
+- `run_comprehensive.sh` : 50 hours

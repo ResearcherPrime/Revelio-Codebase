@@ -33,5 +33,5 @@ filtered destinations identified during the scan of entire United_Arab_Emirates 
 thus take more time than former one.
 
 ## Expected run time
-- `run_demo.sh` : 5 mins (to be verified)
-- `run_comprehensive.sh` : 1 hour (to be verified)
+- `run_demo.sh` : 1 hour 40 mins
+- `run_comprehensive.sh` : 30 hours
