@@ -199,6 +199,12 @@ def main():
 
         names = set()
 
+        total_countries = len(triplets)
+        country_idx = 0
+        last_progress = 0
+
+        print("ASN scraping progress: 0%")
+
         for entry in triplets:
 
             country_name = entry[0]
@@ -237,7 +243,14 @@ def main():
 
                 writer.writerows(asns)
 
-                print(file_name)
+            country_idx += 1
+
+            percentage = (country_idx / total_countries) * 100
+            progress = int(percentage // 5) * 5
+
+            if progress != last_progress:
+                print(f"ASN scraping progress: {progress}%")
+                last_progress = progress
 
             country_end = time.time()
 

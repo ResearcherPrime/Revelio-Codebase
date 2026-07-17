@@ -5,6 +5,9 @@ import csv
 import time
 import sys
 import os
+import urllib3
+
+urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
 SCRIPT_DIR = os.path.dirname(
     os.path.abspath(__file__)
@@ -55,7 +58,7 @@ def scrape(url):
     ip_set = set()
 
     try:
-        response = requests.get(url, timeout=60)
+        response = requests.get(url, verify=False, timeout=60)
     except RequestException as e:
         log.write(f"Request failed: {url} : {e}\n")
         return []
